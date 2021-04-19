@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>
+            Imersão Dev - Super Trunfo
+        </title>
+        <link rel="stylesheet" href="imerssaoDev9.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">Super Trunfo - Alex</h1>
+
+            <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+            <form id="form">
+                <h2>Escolha o seu atributo</h2>
+                <div class="wrapper">
+                    <div id="placar"></div>
+                    <div id="quantidade-cartas"></div>
+                    <div id="cartas">
+                        <div id="carta-jogador" class="carta"></div>
+                        <div id="carta-maquina" class="carta"></div>
+                    </div>
+                    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()"
+                        disabled="false">Jogar</button>
+                </div>
+                <div id="resultado"></div>
+                <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Proxima
+                    rodada</button>
+            </form>
+        </div>
+        <script src="imerssaoDev9.js"></script>
+    </body>
+</html>
